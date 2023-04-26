@@ -1,0 +1,120 @@
+html{
+    background-image: url(/public/images/plane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'poppins', sans-serif;
+}
+form{
+    width: 400px;
+    margin: 30px auto;
+    border-radius: 20px;
+    height: 500px;
+    box-shadow: 20px 10px 35px black;
+    
+}
+.para-have{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+.div-input{
+    display: block;
+    margin-left: 10px;
+    
+}
+.input-name{
+    width: 80%;
+    align-self: center;
+    display: block;
+    margin-left: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(207, 203, 203);
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-color: rgb(207, 203, 203);
+
+}  
+.input-name::placeholder{
+    font-size: 15px;
+    
+}
+.login{
+    display: inline-block;
+    background-color: peachpuff;
+    text-decoration: none;
+    color: black;
+    width: 275px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15px;
+} 
+.div-href{
+    margin-left: 70px;
+    margin-bottom: 30px;
+    
+} 
+.login:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+} 
+.input{
+    margin-left: 30px;
+    
+    
+}
+.error-pass{
+    margin-left: 80px;
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: white;
+}
+.sign{
+    text-align: center;
+    color: white;
+}
+.facebook{
+    display: inline-block;
+    background-color: peachpuff;
+    text-decoration: none;
+    color: black;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    margin-left: 40px;
+}
+.instagram{
+    display: inline-block;
+    background-color: peachpuff;
+    text-decoration: none;
+    color: black;
+    width: 35%;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.facebook:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+} 
+.instagram:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+    
+
+} 
+

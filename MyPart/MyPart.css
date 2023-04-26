@@ -1,0 +1,90 @@
+.para-best{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    width: 410px;
+    height: 30px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 84px;
+
+    color: #DF6951;
+}
+.para-travel{
+    position: absolute;
+    top: 80px;
+    left: 84px;
+    width: 900px;
+    font-family: 'Volkhov', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 89px;
+    /* or 106% */
+
+    letter-spacing: -0.04em;
+
+    /* 1st */
+
+    color: #181E4B;
+}
+.para-built{
+    position: absolute;
+    top: 420px;
+    left: 84px;
+    width: 900px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #5E6282;
+}
+.img-cta{
+    position: absolute;
+    top: 560px;
+    left: 40px;
+
+}
+.img-cta:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img-demo{
+    position: absolute;
+    top: 560px;
+    left: 240px;
+}
+.img-demo:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img-image{
+    position: absolute;
+    top: 0;
+    right: 110px;
+}
+.img-decore{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.cv{
+    position: relative;
+    top: 200px;
+}
+
+@media screen and (max-width: 960px){
+    
+}
